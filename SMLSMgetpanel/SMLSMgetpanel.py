@@ -196,4 +196,4 @@ for tick in tickers[:25]:
         
         
 #References:
-#Wharton Research Data Services. https://wrds-www.wharton.upenn.edu/. Accessed: 2022-05-12, accessed on 12.05.2022
+#Wharton Research Data Services. https://wrds-www.wharton.upenn.edu/. Accessed: 2022-05-12
