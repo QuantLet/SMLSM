@@ -22,7 +22,7 @@ plt.show()
 
 #RF sentiment measures
 sentiment_measures = ["r_{ab} RF12", "r_{ab} RFFin"]
-colors = {"r_{ab} RF12":"red", "r_{ab} RFFin":"blue"}
+colors = {"r_{ab} RF12":"magenta", "r_{ab} RFFin":"royalblue"}
 
 fig1, ax1 = plt.subplots(figsize = (10, 10))
 
@@ -35,7 +35,7 @@ plt.show()
 
 #All SML sentiment measures and abnormal returns
 sentiment_measures = ["r_{ab}", "r_{ab} RF12", "r_{ab} RFFin", "r_{ab} FinNN"]
-colors = {"r_{ab}":"gray", "r_{ab} RF12":"red", "r_{ab} RFFin":"blue", "r_{ab} FinNN": "aquamarine"}
+colors = {"r_{ab}":"gray", "r_{ab} RF12":"magenta", "r_{ab} RFFin":"royalblue", "r_{ab} FinNN": "orange"}
 
 fig1, ax1 = plt.subplots(figsize = (10, 10))
 
