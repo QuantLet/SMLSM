@@ -4,7 +4,7 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 
-#This code produces the regression results from the master thesis "Supervised Machine Learning Sentiment Measures"
+#This code produces the sentiment measure graphs from the master thesis "Supervised Machine Learning Sentiment Measures"
 
 #Part of processed data
 data_aapl = pd.read_csv("data_whole_AAPL2016.csv")
