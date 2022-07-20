@@ -3,7 +3,10 @@ from google.colab import drive
 import numpy as np
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
-drive.mount("/content/gdrive")
+
+#This code produces the regression results from the master thesis "Supervised Machine Learning Sentiment Measures"
+#File data_whole_AAPL2016.csv can be used to test the code. For actual table from thesis, download the data set from the Blockchain Research Center 
+#and use the other code in this quantlet to estimate the sentiment measures
 
 #Read file with panel data 
 data = pd.read_csv("PANEL DATA FILE PATH")
