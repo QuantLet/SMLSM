@@ -2,7 +2,7 @@ Name of Quantlets: 'SMLSMgetpanel'
 
 Published in: 'TBC'
 
-Description: 'This folder contains the quantlet SMLSMgetpanel which extracts variables from the WRDS database for the master thesis "Supervised Machine Learning Sentiment Measures"'. 
+Description: 'This folder contains the quantlet SMLSMgetpanel which extracts variables from the WRDS database for the master thesis Supervised Machine Learning Sentiment Measures' 
 
 Keywords: 'NLP, sentiment analysis, Natural Language Processing, sentiment, news articles'
 
