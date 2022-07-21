@@ -2,7 +2,7 @@ Name of Quantlet: 'SMLSMgraphs'
 
 Published in: 'TBC'
 
-Description: 'This folder contains 1 quantlet plotting the estimated sentiment measures of AAPL in 2016 for the master thesis "Supervised Machine Learning Sentiment Measures"'
+Description: 'This folder contains 1 quantlet plotting the estimated sentiment measures of AAPL in 2016 for the master thesis Supervised Machine Learning Sentiment Measures'
 
 Keywords: 'NLP, sentiment analysis, Natural Language Processing, sentiment, news articles'
 
