@@ -6,7 +6,7 @@ import statsmodels.api as sm
 
 #This code produces the regression results from the master thesis "Supervised Machine Learning Sentiment Measures"
 #File data_whole_AAPL2016.csv can be used to test the code. For actual table from thesis, download the data set from the Blockchain Research Center 
-#and use the other code in this quantlet to estimate the sentiment measures
+#and use the other code in this repo to estimate the sentiment measures
 
 #Read file with panel data 
 data = pd.read_csv("PANEL DATA FILE PATH")
@@ -81,3 +81,5 @@ pooled_olsr_model_finnn = sm.OLS(endog=pooled_y, exog=pooled_x)
 pooled_olsr_model_results_finnn = pooled_olsr_model_finnn.fit()
 print(pooled_olsr_model_results_finnn.summary())
 
+#References
+#Blockchain Research Center, https://blockchain-research-center.com/
