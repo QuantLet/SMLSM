@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 
-#sparse_mat, get_ngrams and get_sparsematrix_and_car based on online appendix of paper by Frankel, Jennings and Lee (2021)
+#Code and sparse_mat, get_ngrams and get_sparsematrix_and_car functions based on online appendix of paper by Frankel, Jennings and Lee (2021)
 
 #Function creates a memory efficient sparse matrix format. Input is the dictionary returned by n_grams function. 
 def sparse_mat(data):
