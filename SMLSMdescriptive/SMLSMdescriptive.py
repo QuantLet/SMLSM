@@ -2,7 +2,7 @@ import pandas as pd
 
 #This code produces the descriptive table and correlation matrix from the master thesis "Supervised Machine Learning Sentiment Measures"
 #File data_whole_AAPL2016.csv can be used to test the code. For actual table from thesis, download the data set from the Blockchain Research Center 
-#and use the other code in this quantlet to estimate the sentiment measures
+#and use the other code in this quantlet to estimate the sentiment measures. Overall table structure based on Frankel, Jennings and Lee (2021).
 
 #Read data 
 data = pd.read_csv("DATA FILE PATH")
@@ -19,3 +19,4 @@ print(corr_matrix)
 
 #References
 #Blockchain Research Center, https://blockchain-research-center.com/
+#Frankel, R., Jennings, J., and Lee, J. (2021). Disclosure sentiment: Machine learning vs. dictionary methods. Management Science
