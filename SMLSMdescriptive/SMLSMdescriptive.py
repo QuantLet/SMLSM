@@ -13,7 +13,9 @@ des_table = data_des.describe().loc[["mean", "std", "25%", "50%", "75%"]]
 print(des_table)
 
 #Get correlation matrix of sentiment measures 
-data_full_cor = data_full[["HIV4 TONE", "LM TONE", "r_{ab} RF12", "r_{ab} RFFin", "r_{ab} FinNN"]]
+data_full_cor = data[["HIV4 TONE", "LM TONE", "r_{ab} RF12", "r_{ab} RFFin", "r_{ab} FinNN", "word_count"]]
+data_full_cor = data_full_cor[data_full_cor["word_count"] != 0]
+data_full_cor = data_full_cor[["HIV4 TONE", "LM TONE", "r_{ab} RF12", "r_{ab} RFFin", "r_{ab} FinNN"]]
 corr_matrix = data_full_cor.corr()
 print(corr_matrix)
 
