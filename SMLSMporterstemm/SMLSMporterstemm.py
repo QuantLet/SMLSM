@@ -4,7 +4,7 @@ from nltk.stem.porter import *
 stemmer = PorterStemmer()
 exclude = set(string.punctuation)
 
-#The following code porter stems words based on the porter stemm algorithm and removes stopwords (Porter 1980)
+#The following code porter stems words based on the porter stemm algorithm (Porter 1980) and removes stopwords.
 #Code and functions to clean words such as fixword as well as the stopwords is either from or based on the online appendix by Frankel, Jennings and Lee (2021)
 
 data = pd.read_csv("gdrive/My Drive/Thesis/processed data/CAR_regression/datasets_final/data_whole_woScAR.csv", index_col = False)
