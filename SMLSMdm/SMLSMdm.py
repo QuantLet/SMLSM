@@ -3,7 +3,7 @@ import pysentiment2 as ps
 import re
 
 #The following code extracts the net tone sentiment measures based on the Harvard and LM dictionary (also included positive and negative tone). Both dictionaries were accessed through the
-#package Pysentiment2
+#package pysentiment2
 
 #Function that counts words of text article documents
 def count_words(Text):
