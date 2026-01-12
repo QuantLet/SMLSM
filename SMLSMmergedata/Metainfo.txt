@@ -1,4 +1,4 @@
-Name of Quantlets: 'SMLSMmergedata'
+Name of Quantlet: 'SMLSMmergedata'
 
 Published in: 'TBC'
 
