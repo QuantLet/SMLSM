@@ -1,4 +1,4 @@
-Name of Quantlets: 'SMLSMgetpanel'
+Name of Quantlet: 'SMLSMgetpanel'
 
 Published in: 'TBC'
 
