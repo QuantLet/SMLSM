@@ -1,4 +1,4 @@
-Name of Quantlets: 'SMLSMprocessrawdata'
+Name of Quantlet: 'SMLSMprocessrawdata'
 
 Published in: 'TBC'
 
