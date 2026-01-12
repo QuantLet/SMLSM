@@ -1,4 +1,4 @@
-Name of Quantlets: 'SMLSMporterstemm'
+Name of Quantlet: 'SMLSMporterstemm'
 
 Published in: 'TBC'
 
